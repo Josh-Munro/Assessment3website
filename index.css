@@ -254,3 +254,80 @@ li a {
 
 
 }
+
+span {
+  color: #44D359;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.about-box {
+
+}
+
+.about-box-img {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 42.7%;
+  margin-top: 20px;
+
+}
+
+.about-box-img img {
+  width: auto;
+  height: 100%;
+  margin-left: -50px;
+}
+
+.about-box h1 {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.about-box h3 {
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.grid-container-about {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 10px;
+  grid-column-gap: 50px;
+
+}
+
+.about-item {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  margin-top: 40px;
+
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.about-item img {
+  width: 100%;
+}
+
+.about-item h1 {
+  padding-left: 20px;
+  font-family: "Roboto";
+}
+
+.about-item h1 {
+  font-family: "Roboto";
+}
+
+.about-item h3 {
+  padding-left: 50px;
+  font-family: "Roboto";
+}
